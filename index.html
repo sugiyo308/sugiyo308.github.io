@@ -1,1 +1,33 @@
-Welcome Disini anda bisa belajar tentang ilmu  pemrograman Ala tunanetra.             
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Daftar Lembaga Tunanetra di Indonesia</h1>
+    <p>
+        Di dalam situs ini akan disajikan daftar lembaga ketunanetraan yang ada di Indonesia. Untuk sementara baru disajikan beberapa lembaga tunanetra dan SD inklusi yang ada di Jakarta. Lambat laun akan dilengkapi.   
+    </p>
+    <p>
+        Selain itu juga akan disajikan tutorial komputer yang dirancang secara khusus untuk tunanetra. Sehingga bagi para tunanetra atau para guru yang akan mengajar komputer kepada tunanetra bisa dijadikan acuan.
+    </p>
+
+    <h2>Daftar Lembaga Tunanetra dan SD inklusi yang ada di Jakarta.</h2>
+    <table id="data"></table>
+    
+    <script src="fetch.js"></script>
+
+    <button id="tombol">Cetak Halaman</button>
+  <script>
+    var tombolNode = document.getElementById("tombol");
+    
+    tombolNode.addEventListener("click",function () {
+      window.print();
+    });
+  </script>
+
+</body>
+</html>
