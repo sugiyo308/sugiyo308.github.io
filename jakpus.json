@@ -1,0 +1,174 @@
+[
+    {
+        "ID": 1,
+        "Nama  Lembaga": "SDN BUNGUR 01 PG",
+        "Alamat": "JL. ANGSANA NO. 4",
+                "Kode Pos": "...",
+        "Telepon": "+62-4223710",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 2,
+        "Nama Lembaga": "SDN KENARI 01 PG",
+        "Alamat": "JL. KRAMAT IV NO. 25",
+        "Kode Pos": "...",
+        "Telepon": "+62-3923449",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 3,
+        "Nama Lembaga": "SDN JOHAR BARU 10 PG",
+        "Alamat": "JL. MARDANI RAYA",
+                "Kode Pos": "...",
+        "Telpon": "+62-4209736",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 6,
+        "Nama Lembaga": "SDN JOHAR BARU 29 PG",
+        "Alamat": "JL. PERCETAKAN NEGARA II A",
+        "Kode Pos": "...",
+        "Telpon": "+62-42886189",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 5,
+        "Nama Lembaga": "SDN TANAH TINGGI 01 PG",
+        "Alamat": "JL. TANAH TINGGI I GG. II JAKARTA PUSAT",
+                "Kode Pos": "...",
+        "Telpon": "+62-4210772",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 6,
+        "Nama Lembaga": "SDN CEMPAKA PUTIH BARAT 07 PG",
+        "Alamat": "JL. PERCETAKAN NEGARA RAYA",
+        "Kode Pos": "...",
+        "Telpon": "+62-42882185",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 7,
+        "Nama Lembaga": "SDN CEMPAKA PUTIH BARAT 16 PG",
+        "Alamat": "JL. CEMPAKA PUTIH BARAT XIX",
+                "Kode Pos": "...",
+        "Telpon": "+62-42884357",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 8,
+        "Nama Lembaga": "SDN CEMPAKA PUTIH TIMUR 02 PT",
+        "Alamat": "JL. RAWASARI TIM. IV/ 2",
+        "Kode Pos": "...",
+        "Telpon": "+62-4247836",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+        "ID": 9,
+        "Nama Lembaga": "SDN SERDANG 01 PG",
+        "Alamat": "JL. LAPANGAN PORS",
+                "Kode Pos": "...",
+        "Telpon": "+62-4225484",
+        "Email": "...",
+        "Website": "..."
+    },
+    {
+    "ID": 10,
+    "Nama Lembaga": "SDN SUMUR BATU 07 PT",
+    "Alamat": "JL. SUMUR BATU UTARA NO 2",
+        "Kode Pos": "...",
+    "Telpon": "+62-4254195",
+    "Email": "...",
+    "Website": "..."
+},
+{
+"ID": 11,
+"Nama Lembaga": "SDN KARTINI 02 PT",
+"Alamat": "JALAN GOTONG ROYONG GANG E",
+"Kode Pos": "...",
+"Telpon": "+62-6267210",
+"Email": "...",
+"Website": "..."
+},
+{
+    "ID": 12,
+    "Nama Lembaga": "SDN MANGGA DUA SELATAN 01 PG",
+    "Alamat": "JL. MELAWAN DALAM NO.1",
+        "Kode Pos": "...",
+    "Telpon": "+62-6267474",
+    "Email": "...",
+    "Website": "..."
+        },
+        {
+            "ID": 13,
+            "Nama Lembaga": "SDN PASAR BARU 01 PG",
+            "Alamat": "JL. PINTU BESI I/ 42",
+                        "Kode Pos": "...",
+            "Telpon": "+62-3511768",
+            "Email": "...",
+            "Website": "..."
+            },
+            {
+                "ID": 14,
+                "Nama Lembaga": "SDN CIDENG 11 PT",
+                "Alamat": "JL. CILAMAYA NO. 1",
+                                "Kode Pos": "...",
+                "Telpon": "...",
+                "Email": "...",
+                "Website": "..."
+                },
+                {
+                    "ID": 15,
+                    "Nama Lembaga": "SDN PETOJO SELATAN 05 PG",
+                    "Alamat": "JL. PETOJO ENCEK XIV / 35 GAMBIR JAKARTA PUSAT",
+                                        "Kode Pos": "...",
+                    "Telpon": "+62-3512865",
+                    "Email": "...",
+                    "Website": "..."
+                    },
+                    {
+                        "ID": 16,
+                        "Nama Lembaga": "SDN CIKINI 01 PG",
+                        "Alamat": "JL. CIDURIAN NO. 2 A",
+                                                "Kode Pos": "...",
+                        "Telpon": "+62-2306143",
+                        "Email": "...",
+                        "Website": "..."
+                        },
+                        {
+                            "ID": 17,
+                            "Nama Lembaga": "SDN KEBON SIRIH 01 PG",
+                            "Alamat": "JL. KEBON SIRIH NO. 29",
+                                                        "Kode Pos": "...",
+                            "Telpon": "+62-98105838",
+                            "Email": "...",
+                            "Website": "..."
+                            },
+                            {
+                                "ID": 18,
+                                "Nama Lembaga": "SDN BENDUNGAN HILIR 01 PG",
+                                "Alamat": "JL. DANAU TOBA",
+                                                                "Kode Pos": "...",
+                                "Telpon": "+62-5720347",
+                                "Email": "...",
+                                "Website": "..."
+                                },
+                                {
+                                "ID": 19,
+                                "Nama Lembaga": "SDN PETAMBURAN 01 PG",
+                                "Alamat": "JL. PETAMBURAN IV",
+                                "Kode Pos": "...",
+                                "Telpon": "+62-53679743",
+                                "Email": "...",
+                                "Website": "..."
+                                }
+    
+                                    ]
