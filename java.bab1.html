@@ -68,5 +68,15 @@
         Jika pengertian di atas terasa membingungkan, jangan khawatir. Anda cukup pahami bahwa JavaScript adalah bahasa pemrograman web yang digunakan untuk ‘memprogram’ HTML. Dengan JavaScript, kita akan membuat halaman website menjadi lebih interaktif. Inilah yang akan saya bahas sepanjang buku ini.
     </p>
 
+    <button id="tombol">Cetak Halaman</button>
+    <script>
+      var tombolNode = document.getElementById("tombol");
+      
+      tombolNode.addEventListener("click",function () {
+        window.print();
+      });
+    </script>
+  
+  
 </body>
     </html>
