@@ -205,5 +205,27 @@
         "telepon": "+62-53679743",
         "email": "...",
         "website": "..."
+    },
+    {
+        "id": 20,
+        "nama lembaga": "Tunarungu SLB - B Kuntum Mekar",
+        "alamat": "Jl. Mushola Rt. 11/07 Tegal Alur Kec.Kali Deres",
+        "kota": "Jakarta Barat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "11820",
+        "telpon": "021-55961920 ",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 22,
+        "nama lembaga": "SLB - B Pangudi Luhur",
+        "alamat": "Jl. Pesanggrahan 125 Kec.Kembangan Jakarta Barat",
+        "kota": "Jakarta Barat",
+        "provinsi": "DKI Jakarta",
+        "telepon": "116110",
+        "email": "...",
+        "website": "..."
     }
+
 ]
