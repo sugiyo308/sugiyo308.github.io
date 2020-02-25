@@ -390,11 +390,11 @@
     </p>
 
     <p>
-        Jika butuh memanggil lebih dari 1 file JavaScript external, bisa dengan menulis tag &#60;script&#62; beberapa kali:
+        Jika butuh memanggil lebih dari 1 file JavaScript external, bisa dengan menulis tag &#60;script&#62; beberapa kali. Seperti contoh berikut:
     </p>
 
     <p>
-        <br>&#62;script src="kodeku1.js"&#62;&#60;/script&#62;
+        <br>&#60;script src="kodeku1.js"&#62;&#60;/script&#62;
 <br>&#60;script src="kodeku2.js"&#62;&#60;/script&#62;
 <br>&#60;script src="kodeku3.js"&#62;&#60;/script&#62;
     </p>
@@ -454,7 +454,7 @@
     </p>
 
     <p>
-        Solusi dari masalah ini adalah dengan memanggil file external JavaScript dari bagian bawah tag <body>. Dengan  demikian, kita memberi kesempatan web browser untuk memproses kode HTML terlebih dahulu, baru kemudian mendownload file JavaScript. Efeknya, pengujung web bisa langsung melihat tampilan web selama proses ini, tidak hanya halaman kosong.
+        Solusi dari masalah ini adalah dengan memanggil file external JavaScript dari bagian bawah tag &#60;body&#62. Dengan  demikian, kita memberi kesempatan web browser untuk memproses kode HTML terlebih dahulu, baru kemudian mendownload file JavaScript. Efeknya, pengujung web bisa langsung melihat tampilan web selama proses ini, tidak hanya halaman kosong.
     </p>
 
     <p>
@@ -464,9 +464,6 @@
     <p>
         External JavaScript hanya akan digunakan pada studi kasus yang cukup rumit atau terdapat lebih dari 1 halaman HTML yang butuh JavaScript. Sekali lagi, ini semata-mata hanya untuk mempersingkat penulisan.
     </p>
-</main>
-  
-
 
 <button id="tombol">Cetak Halaman</button>
 <script>
@@ -476,7 +473,7 @@ tombolNode.addEventListener("click",function () {
   window.print();
 });
 </script>
-
+</main>
 
 <footer class="footer">
     <p>2020 &#169; Copy Right Sugiyo</p>
