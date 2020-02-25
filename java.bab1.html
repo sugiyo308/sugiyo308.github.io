@@ -7,8 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="class">
+        <h1>Daftar Lembaga Ketunanetraan dan Sekolah Inklusi di Indonesia</h1>
+    </header>
+    
+    <nav class="nav-primary"></nav>
+    <ul>
+    <li><a href="jakpus.html">Provinsi DKI Jakarta</a></li>
+    </ul>
+    
+    <h1>Tutorial JavaScript</h1>
+    
+    <ul>
+    <li><a href="java.bab1.html">Pengenalan JavaScript</a></li>
+    <li><a href="java.bab2.html">Menjalankan Code Program JavaScript</a></li>
+    </ul>
+    </nav>
 
-    <h1>Berkenalan Dengan JavaScript</h1>
+    <main class="class">
+    <h2>Berkenalan Dengan JavaScript</h2>
     
     <p>
         JavaScript adalah bahasa pemrograman untuk HTML. Dalam Bab ini kita akan membahas pentingnya JavaScript dalam pengembangan web, mengenal apa itu client side programming language, serta melihat sekilas apa yang bisa dilakukan dengan JavaScript.
@@ -68,15 +85,103 @@
         Jika pengertian di atas terasa membingungkan, jangan khawatir. Anda cukup pahami bahwa JavaScript adalah bahasa pemrograman web yang digunakan untuk ‘memprogram’ HTML. Dengan JavaScript, kita akan membuat halaman website menjadi lebih interaktif. Inilah yang akan saya bahas sepanjang buku ini.
     </p>
 
+    <h2>Samakah JavaScript dengan JAVA?</h2>
+    
+    <p>
+        Nama JavaScript memang sering membuat bingung programmer pemula. Ini dikarenakan terdapat bahasa pemrograman populer lain yang bernama JAVA. Tidak sedikit yang beranggapan bahwa JavaScript adalah versi “ringan” dari JAVA, atau JavaScript adalah bahasa pemrograman JAVA yang digunakan khusus membuat web.
+    </p>
+
+    <p>
+        JavaScript sepenuhnya berbeda dari JAVA. Penamaan yang mirip ini tidak lepas dari sejarah dan ide marketing yang dibuat oleh Netscape Communications, selaku perusahaan yang pertama kali mengembangkan JavaScript.
+    </p>
+    
+    <p>
+        Sekitar tahun 1990an, Netscape (yang saat itu sedang bersaing dengan Microsoft) berusaha mendapatkan pangsa pasar web browser, yakni persaingan antara web browser Netscape Navigator dengan Internet Explorer. Era ini dikenal juga dengan era “browser war”.
+    </p>
+
+    <p>
+        Supaya lebih “menjual”, Netscape mengubah bahasa pemrograman yang dikembangkannya dari “LiveScript” menjadi “JavaScript” dengan harapan bisa mengikuti kepopuleran bahasa pemrograman JAVA (yang saat itu sedang booming di kalangan programmer).
+    </p>
+
+    <p>
+        Walaupun sepenuhnya berbeda, banyak syntax dan aturan penulisan JavaScript mirip dengan JAVA, ini karena keduanya sama-sama terispirasi dari format penulisan bahasa C dan C++.  Bahasa pemrograman PHP juga merupakan turunan dari C dan C++. Jika sebelumnya anda sudah mempelajari PHP, aturan penulisan kode program di JavaScript akan terasa sangat mirip.
+    </p>
+
+    <h2>JavaScript Sebagai Client Side Programming Language</h2>
+       
+    <p>
+        Sebagaimana yang telah disinggung sebelumnya, JavaScript termasuk ke dalam bahasa pemrograman web yang diproses di sisi client, atau dikenal dengan istilah Client Side Programming Language. Dalam bahasa sederhananya, script JavaScript  diterjemahkan oleh browser yang digunakan oleh pengguna. Ini artinya, untuk menjalankan JavaScript kita hanya butuh 2 aplikasi, yakni text editor dan web browser. Text editor digunakan membuat kode JavaScript, dan kode JavaScript tersebut bisa langsung diakses dari web browser. Caranya sama persis seperti menjalankan file HTML dan CSS.
+    </p>
+
+    <p>
+        Ini berbeda dengan bahasa pemrograman Server Side seperti PHP dan ASP. Jika kita membuat halaman web dengan PHP, script php diterjemahkan oleh server menjadi kode HTML biasa, baru kemudian di kirim ke browser yang digunakan oleh pengunjung. Oleh sebab itu untuk menjalankan kode program PHP kita harus menggunakan aplikasi seperti Apache web server (yang merupakan bagian dari XAMPP).
+    </p>
+
+    <p>
+        Efek lain dari JavaScript sebagai client side programming language adalah, kita bisa melihat kode yang digunakan dari sebuah website (sama seperti HTML dan CSS). Silahkan buka website apa saja, klik kanan lalu pilih View Page Source. Anda bisa melihat kode JavaScript yang digunakan (yang jumlahnya bisa mencapai ratusan baris).
+    </p>
+    
+    <p>
+        Seiring dengan perkembangan JavaScript yang sangat pesat, saat ini JavaScript tidak hanya berjalan di client, tapi juga bisa berjalan di server (seperti PHP). Contoh penerapan JavaScript di server ini adalah node.js. Perusahan besar seperti Paypal dan LinkedIn. Juga sudah menggunakan node.js .
+    </p>
+    
+    <h2>JavaScript dan DOM</h2>
+
+    <p>
+        apa yang akan kita pelajari dalam buku ini terdiri dari 2 kelompok besar: yaitu JavaScript dan DOM (Document Object Model). JavaScript adalah bahasa pemrograman, sedangkan DOM merupakan objek HTML yang akan kita manipulasi, seperti teks, gambar, form, tombol, title bar web browser, event, dll.
+    </p>
+
+    <p>
+        Bagi yang baru pertama kali belajar JavaScript, keduanya tampak seperti satu kesatuan. Untuk apa belajar JavaScript jika tidak berhubungan dengan HTML? Tapi itulah kenyataannya.
+    </p>
+
+    <p>
+        Bahasa pemrograman JavaScript di kembangkan oleh ECMA, sedangkan DOM dikembangkan oleh W3C (organisasi yang juga membuat standar HTML dan CSS). Bisa dibilang, JavaScript sepenuhnya terpisah dari HTML.
+    </p>
+
+    <p>
+        Pada bagian awal buku saya akan fokus ke JavaScript, yakni sisi programmingnya. Disini kita akan membahas dasar-dasar pemrograman JavaScript seperti variabel, tipe data, operator, kondisi if, perulangan, hingga object.
+    </p>
+
+    <p>
+        Dengan jujur saya katakan, pembahasan bagian ini akan terasa cukup membosankan, karena kita belum bisa melihat hasil akhir yang sebenarnya di web browser (hanya berupa teks). Bahkan bisa juga dibilang, anda boleh “melupakan” HTML untuk setengah buku ini, kita akan fokus ke sisi programming JavaScript.
+    </p>
+
+    <h2Mengenal ECMAScript Engine (JavaScript Engine)></h2>
+
+    <p>
+        JavaScript Engine adalah mekanisme internal yang dimiliki oleh web browser untuk menjalankan kode JavaScript. JavaScript Engine dapat disamakan dengan compiler dalam bahasa pemograman lain, yakni algoritma yang digunakan untuk menjalankan JavaScript. Semakin cepat sebuah web browser menjalankan JavaScript akan semakin baik.
+    </p>
+
+    <p>
+        V8 adalah nama JavaScript Engine untuk Google Chrome, SpiderMonkey untuk Mozilla Firefox, dan Chakra untuk Internet Explorer. 
+    </p>
+
+<p>
+Umumnya kita tidak akan berurusan dengan JavaScript Engine ini, hanya sekedar pengetahuan yang mungkin akan anda temui dalam bahasan tentang JavaScript.
+</p>
+
+<h2>Perkembangan JavaScript Saat Ini</h2>
+
+<p>
+Antara 2-3 tahun belakangan, JavaScript berkembang dengan sangat pesat, terutama sejak dirilisnya Node.js. Dengan menggunakan Node.js, JavaScript bisa berjalan sebagai bahasa pemrograman server. Fitur utamanya seperti non-blocking I/O model, dimana banyak pemrosesan bisa berjalan bersamaan, tanpa menunggu proses lain selesai.
+</p>
+
+<p>
+Selain itu juga banyak bermuculan framework JavaScript seperti AngularJS yang di kembangkan oleh Google serta ReactJS yang dikelola oleh FaceBook. Framework seperti ini digunakan untuk membuat website yang tidak berbentuk �website�, tetapi menyerupai aplikasi desktop yang dikenal sebagai Single-page Application (SPA).
+</p>
+
+<p>
+Contoh dari Single-page Application ini seperti aplikasi Google: Gmail, GDrive, Google Doc, dll. Di website tersebut, halamannya akan tetap sama, tidak di reload seperti layaknya sebuah website. 
+</p>
+
     <button id="tombol">Cetak Halaman</button>
-    <script>
-      var tombolNode = document.getElementById("tombol");
+    <script src="print.js"></script>
+</main>
+
+    <footer class="footer">
+        <p>2020 &#169; Copy Right Sugiyo</p>
+      </footer>
       
-      tombolNode.addEventListener("click",function () {
-        window.print();
-      });
-    </script>
-  
-  
-</body>
+  </body>
     </html>
