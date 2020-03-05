@@ -14,6 +14,7 @@
     
     <nav class="nav-primary"></nav>
     <ul>
+        <li><a href="index.html" title="Beranda">Beranda</a></li>
     <li><a href="jakpus.html">Provinsi DKI Jakarta</a></li>
     </ul>
 
@@ -25,11 +26,18 @@
     <li><a href="java.bab1.html">Pengenalan JavaScript</a></li>
     <li><a href="java.bab2.html">Menjalankan Code Program JavaScript</a></li>
     </ul>
+
+    <h1>Teknik Kompilasi</h1>
+
+<ul>
+    <li><a href="automata.html" title="Pengenalan Hirarki Chomsky">Pengenalan Hirarki Chomsky</a></li>
+</ul>
+
     </nav>
 
     <main class="class">
     <h2>Menjalankan Script Program JavaScript</h2>
-    
+
     <p>
         Dalam bab ini kita akan mempelajari cara menjalankan kode program JavaScript. Dimulai dari mempersiapkan aplikasi teks editor dan web browser, membahas 3 metode input JavaScript, mengenal tab console dari web developer tools, hingga menampilkan pesan untuk web browser yang tidak mendukung JavaScript.
 
@@ -467,6 +475,179 @@
         External JavaScript hanya akan digunakan pada studi kasus yang cukup rumit atau terdapat lebih dari 1 halaman HTML yang butuh JavaScript. Sekali lagi, ini semata-mata hanya untuk mempersingkat penulisan.
     </p>
 
+    <h2>Web Developer Tools</h2>
+
+    <p>
+        Berbeda dengan mayoritas bahasa pemrograman lain, secara default kita tidak bisa melihat pesan error dari JavaScript. Padahal ini sangat penting selama pembuatan kode program. Tidak ada yang lebih membuat pusing dari program yang tidak berjalan, namun tidak tahu salahnya dimana.
+    </p>
+
+    <p>
+        Untuk menampilkan pesan error JavaScript, kita bisa menggunakan menu Web developer tools bawaan web browser. Setiap web browser modern memiliki tools seperti ini. Cara paling cepat dengan menekan kombinasi tombol CRTL + SHIFT I. 
+    </p>
+
+    <p>
+        Bagi para tunanetra, hingga saat ini hanya Google Chrome yang Web developer tools-nya mudah diakses dengan screen reader.
+    </p>
+
+    <p>
+        Jendela Web developer tools sangat berguna dalam proses pembuatan web, tidak hanya untuk JavaScript saja tapi juga untuk merancang kode HTML dan CSS. Disini terdapat beberapa tab, seperti Inspector, Console, Debugger, dll. Tab yang akan sering kita akses adalah Inspector dan Console.
+    </p>
+
+    <p>
+        Tab Inspectorbisa digunakan untuk menelusuri seluruh kode HTML yang terdapat di dalam halaman web. 
+    </p>
+
+    <p>
+        Tab yang sering kita akses selama membuat kode program JavaScript adalah tab Console. 
+    </p>
+
+    <p>
+        Tab Console digunakan untuk menampilkan pesan error JavaScript (apabila ada). 
+    </p>
+
+    <p>
+        Mari coba kita mencoba script yang secara sengaja kita buat error. silahkan ketik kode program berikut:
+    </p>
+
+    <p>
+        &#60;!DOCTYPE html&#62
+        <br>&#60;html lang="en&#62
+        <br>&#60;head&#62
+        <br>&#160;&#160;&#160;&#160;&#60;meta charset="UTF-8"&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;meta name="viewport" content="width=device-width, initial-scale=1.0"&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;meta http-equiv="X-UA-Compatible" content="ie=edge"&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;title&#62contoh JavaScript&#60;/title&#62;
+        <br>&#60;/head&#62;
+        <br>&#60;body&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;h1&#62;Belajar JavaScript&#60;/h1&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;script&#62;
+        <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#60;alert("Hello World);
+            <br>&#160;&#160;&#160;&#160;&#60;/script&#62;
+            
+        <br>&#60;/body&#62
+        <br>&#60;/html&#62
+    </p>
+
+    <p>
+        Mari kita jalankan kode program diatas dengan google crome. Seperti biasa, web browser tidak menampilkan pesan error apapun. Tapi kita sadar bahwa ada sesuatu yang salah karena jendela popup “Hello World” tidak tampil. 
+    </p>
+
+    <h2>Mengakses tab Console dari Web Developer Tools Dengan Screen reader</h2>
+
+    <p>
+        Bagi Pengguna screen reader bisa mengakses tab Console dari Web Developer Tools dengan cara melakukan langkah-langkah seperti berikut.
+    </p>
+
+    <ul>
+        <li>Jalankan script di atas dengan Google Crome.</li>
+        <li>Tekan shift+ctrl+i.</li>
+        <li>Tekan ctrl + `. Tombol ` biasanya berada di sebelah kiri angka1.</li>
+        <li>Tekan tombol caps lock + sepasi 2 kali. Cara menekannya tekan tombol caps lock (tahan), lalu sepasi ditekan 2 kali.</li>
+        <li>Tekan shift+tab sekali.</li>
+        <li>Baca dengan panah bawah/atas.</li>
+    </ul>
+
+    <p>
+        Tampak satu baris kalimat: SyntaxError: unterminated string literal. Inilah pesan kesalahan dari kode program kita. Saya lupa menutup string “Hello World” dengan tanda kutip. Setelah selesai membaca pesan error, tekan shift+ctrl+i untuk kembali di tampilan biasa.
+    </p>
+
+    <p>
+        Pesan error seperti ini sangat berguna. Apabila kode yang anda buat tidak berjalan sebagaimana mestinya, hal pertama yang harus dilakukan adalah memeriksa tab Console ini.
+    </p>
+
+    <h2>Function console.log()</h2>
+
+    <p>
+        Metode yang paling cepat untuk menampilkan hasil code JavaScript adalah dengan fungsi alert(), sebagaimana yang telah kita gunakan sejauh ini.
+    </p>
+
+    <p>
+        Meskipun cepat, fungsi alert() hanya bisa menampilkan 1 output pada setiap pemanggilan. Selain itu fungsi ini juga men-block eksekusi JavaScript sampai tombol OK di klik.
+    </p>
+
+    <p>
+        Alternatif lain yang lebih rapi dan elegan adalah menggunakan fungsi console.log(). Fungsi ini berguna untuk menampilkan hasil kode program ke tab Console. 
+    </p>
+
+    <p>
+        Mari kita coba, silahkan jalankan kode program berikut ini:
+    </p>
+
+    <p>
+        &#60;!DOCTYPE html&#62
+        <br>&#60;html lang="en&#62
+        <br>&#60;head&#62
+        <br>&#160;&#160;&#160;&#160;&#60;meta charset="UTF-8"&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;meta name="viewport" content="width=device-width, initial-scale=1.0"&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;meta http-equiv="X-UA-Compatible" content="ie=edge"&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;title&#62contoh JavaScript&#60;/title&#62;
+        <br>&#60;/head&#62;
+        <br>&#60;body&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;h1&#62;Belajar JavaScript&#60;/h1&#62;
+        <br>&#160;&#160;&#160;&#160;&#60;script&#62;
+        <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log("Selamat Pagi.");
+        <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log("Sedang belajar JavaScript.");
+        <br>&#160;&#160;&#160;&#160;&#60;/script&#62
+                
+        <br>&#60;/body&#62
+        <br>&#60;/html&#62
+    </p>
+    
+    <p>
+        Selanjutnya lakukan langkah-langkah berikut untuk menampilkan  hasil console.log.
+    </p>
+
+    <ul>
+        <li>Jalankan program di atas dengan Google Chrome.</li>
+        <li>Tekan shift+ctrl+i.</li>
+        <li>Tekan ctrl + `.</li>
+        <li>Tekan caps lock + sepasi 2 kali.</li>
+        <li>Tekan shift+tab.</li>
+        <li>Baca dengan panah bawah/atas. Jika menemukan keterangan tree view dari scxreen reader tekan panah kanan untuk membukanya</li>
+        <li>Tekan shift+ctrl+i untuk keluar dari console.
+    </ul>
+
+    <p>
+        Disini, saya menampilkan 4 buah perintah dengan fungsi  console.log(). Jauh lebih elegan dibandingkan fungsi alert(). Tapi perlu diingat, fungsi ini tidak akan menampilkan apa-apa ke dalam halaman web. Kita hanya bisa melihatnya dari tab Console. 
+    </p>
+
+    <p>
+        Sepanjang pembahasan dalam bab-bab berikutnya, saya akan banyak menggunakan fungsi console.log() ini. Setidaknya sampai kita masuk ke pembahasan tentang DOM (Document Object Model).
+    </p>
+
+    <h2>Menampilkan console.log tanpa script HTML</h2>
+
+    <p>
+        Jika yang kita lakukan hanya ingin menguji apakah script jalan atau tidak, kita bisa menjalankan program JavaScript tanpa melalui program web browser. Syaratnya komputer Anda telah diinstal program node dan Anda menggunakan Visual Studio Code sebagai program editor browser-nya. Cari program node di internet lalu coba lakukan percobaan berikut.
+    </p>
+
+    <p>
+        Pertama-tama coba ketik script berikut di dalam visual studio code Anda.
+    </p>
+
+    <p>
+        console.log("Selamat pagi");
+        <br>console.log("Senang Belajar JavaScript");
+    </p>
+
+    <p>
+        Selanjutnya lakukan hal-hal berikut untuk menampilkan script di atas.
+    </p>
+
+    <ol>
+        <li>Simpan script di atas ke dalam folder yang sudah kita persiapkan dengan ekstensi js. Di sini saya menggunakan kata kumpulanjavascript sebagai nama folder dan script1 sebagai nama file.</li>
+        <li>Aktifkan folder yang digunakan untuk menyimpan file tersebut.</li>
+        <li>Tekan ctrl+ `. </li>
+        <li>Ketik node script1.js tekan enter. Komputer akan segera membacakan apa yang kita tuliskan dalam console.log.</li>
+        
+    </ol>
+        
+    
+
+    <p>
+
+    </p>
+    
 <button id="tombol">Cetak Halaman</button>
 <script>
 var tombolNode = document.getElementById("tombol");
