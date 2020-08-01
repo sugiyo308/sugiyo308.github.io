@@ -1,0 +1,240 @@
+[
+    {
+        "id": 1,
+        "nama lembaga": "SDN BUNGUR 01 PG",
+        "alamat": "JL. ANGSANA NO. 4",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-4223710",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 2,
+        "nama lembaga": "SDN KENARI 01 PG",
+        "alamat": "JL. KRAMAT IV NO. 25",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-3923449",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 3,
+        "nama lembaga": "SDN JOHAR BARU 10 PG",
+        "alamat": "JL. MARDANI RAYA",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-4209736",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 4,
+        "nama lembaga": "SDN JOHAR BARU 29 PG",
+        "alamat": "JL. PERCETAKAN NEGARA II A",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-42886189",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 5,
+        "nama lembaga": "SDN TANAH TINGGI 01 PG",
+        "alamat": "JL. TANAH TINGGI I GG. II JAKARTA PUSAT",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-4210772",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 6,
+        "nama lembaga": "SDN CEMPAKA PUTIH BARAT 07 PG",
+        "alamat": "JL. PERCETAKAN NEGARA RAYA",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-42882185",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 7,
+        "nama lembaga": "SDN CEMPAKA PUTIH BARAT 16 PG",
+        "alamat": "JL. CEMPAKA PUTIH BARAT XIX",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-42884357",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 8,
+        "nama lembaga": "SDN CEMPAKA PUTIH TIMUR 02 PT",
+        "alamat": "JL. RAWASARI TIM. IV/ 2",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-4247836",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 9,
+        "nama lembaga": "SDN SERDANG 01 PG",
+        "alamat": "JL. LAPANGAN PORS",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-4225484",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 10,
+        "nama lembaga": "SDN SUMUR BATU 07 PT",
+        "alamat": "JL. SUMUR BATU UTARA NO 2",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-4254195",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 11,
+        "nama lembaga": "SDN KARTINI 02 PT",
+        "alamat": "JALAN GOTONG ROYONG GANG E",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-6267210",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 12,
+        "nama lembaga": "SDN MANGGA DUA SELATAN 01 PG",
+        "alamat": "JL. MELAWAN DALAM NO.1",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-6267474",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 13,
+        "nama lembaga": "SDN PASAR BARU 01 PG",
+        "alamat": "JL. PINTU BESI I/ 42",
+        "kode pos": "...",
+        "telepon": "+62-3511768",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 14,
+        "nama lembaga": "SDN CidENG 11 PT",
+        "alamat": "JL. CILAMAYA NO. 1",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "...",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 15,
+        "nama lembaga": "SDN PETOJO SELATAN 05 PG",
+        "alamat": "JL. PETOJO ENCEK XIV / 35 GAMBIR JAKARTA PUSAT",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-3512865",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 16,
+        "nama lembaga": "SDN CIKINI 01 PG",
+        "alamat": "JL. CidURIAN NO. 2 A",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-2306143",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 17,
+        "nama lembaga": "SDN KEBON SIRIH 01 PG",
+        "alamat": "JL. KEBON SIRIH NO. 29",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-98105838",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 18,
+        "nama lembaga": "SDN BENDUNGAN HILIR 01 PG",
+        "alamat": "JL. DANAU TOBA",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-5720347",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 19,
+        "nama lembaga": "SDN PETAMBURAN 01 PG",
+        "alamat": "JL. PETAMBURAN IV",
+        "kota": "Jakarta Pusat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "...",
+        "telepon": "+62-53679743",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 20,
+        "nama lembaga": "Tunarungu SLB - B Kuntum Mekar",
+        "alamat": "Jl. Mushola Rt. 11/07 Tegal Alur Kec.Kali Deres",
+        "kota": "Jakarta Barat",
+        "provinsi": "DKI Jakarta",
+        "kode pos": "11820",
+        "telpon": "021-55961920 ",
+        "email": "...",
+        "website": "..."
+    },
+    {
+        "id": 22,
+        "nama lembaga": "SLB - B Pangudi Luhur",
+        "alamat": "Jl. Pesanggrahan 125 Kec.Kembangan Jakarta Barat",
+        "kota": "Jakarta Barat",
+        "provinsi": "DKI Jakarta",
+        "telepon": "116110",
+        "email": "...",
+        "website": "..."
+    },
+
+    {
+        "id": 23,
+        "nama lembaga": "SLB - C Dian Kusuma (Untuk tunagrahita ringan)",
+        "alamat": "Green Garden Blok I Kec.Cengkareng Jakarta Barat",
+        "provinsi": "DKI Jakarta",
+        "telepon": "...",
+        "email": "...",
+        "website": "..."
+    }
+]
