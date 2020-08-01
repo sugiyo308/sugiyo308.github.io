@@ -1,7 +1,7 @@
 // fetch api dari domain lain
 // localhost:5050 mengambil data dari localhost:4000
 
-const urlUserData = "./jakpus.json";
+const urlUserData = "./slb.json";
 //set url source yang akan diambil datanya
 // const urlMain = 'http://localhost:4000/'
 // if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
