@@ -1,4 +1,4 @@
-const charactersList = document.getElementById('provensi');
+const charactersList = document.getElementById('provinsi');
 let hpCharacters = [];
 
 const loadCharacters = async () => {
@@ -16,11 +16,11 @@ const displayCharacters = (characters) => {
         .map((character) => {
             return `
             <li class="character">
-                <h2>nama lembaga: ${character.lembaga}</h2>
+                <h2>nama lembaga: ${character.nama lembaga}</h2>
                 <p>alamat: ${character.alamat}</p>
                 <p>kota: ${character.kota}</p>
                 <p>provinsi: ${character.provinsi}</p>
-                <p>kode pos: ${character.pos}</p>
+                <p>kode pos: ${character.kode pos}</p>
                 <p>telepon: ${character.telepon}</p>
                 <p>email: ${character.email}</p>
                 <p>website: ${character.website}</p>
